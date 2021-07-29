@@ -1,6 +1,6 @@
 from django.db import models
 
-class Person:
+class Person(models.Model):
     username    = models.CharField(max_length=100)
     phone       = models.IntegerField()
     pic         = models.ImageField(null=True, blank=True, upload_to="images/")

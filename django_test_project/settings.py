@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'app1',
     'app2_restapi',
+    'app3_images',
+    'app4_blog',
 ]
 
 MIDDLEWARE = [

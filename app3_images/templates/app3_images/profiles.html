@@ -1,4 +1,6 @@
-<form action="" method="POST" enctype="multipart/form-data">
-    {% csrf_token %}
-    <input type="submit"></input>
-</form>
+<h2>Profiles</h2>
+{% for i in person %}
+	{{ i.username }}
+	{{ i.phone }}
+	{{ i.pic }}
+{% endfor %}
